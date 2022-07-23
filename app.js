@@ -18,7 +18,7 @@ app.use("/",dataRouter);
 
 
 //app.get("/editordata", passport.authenticate("google"));
-
-app.listen(process.env.PORT || 3000 || 8080 || 8081, () =>
-  console.log("Server Started ")
+const port=process.env.PORT || 3000 ;
+app.listen(port, () =>
+  console.log(`Server Started on Port ${port}`)
 );
