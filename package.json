@@ -154,6 +154,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
+  "optionalDependencies": {
+    "fsevents": "~2.3.2"
+  },
   "author": "",
   "license": "ISC"
 }
