@@ -95,6 +95,7 @@
     "negotiator": "^0.6.3",
     "node-fetch": "^2.6.7",
     "node-forge": "^1.3.1",
+    "node-sass": "^7.0.1",
     "nodemon": "^2.0.19",
     "nopt": "^1.0.10",
     "normalize-path": "^3.0.0",
