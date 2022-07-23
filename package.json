@@ -20,6 +20,7 @@
     "body-parser": "^1.20.0",
     "brace-expansion": "^1.1.11",
     "braces": "^3.0.2",
+    "brew": "^0.0.8",
     "buffer-equal-constant-time": "^1.0.1",
     "bytes": "^3.1.2",
     "call-bind": "^1.0.2",
@@ -147,9 +148,13 @@
     "wrappy": "^1.0.2",
     "yallist": "^4.0.0"
   },
+  "engines": {
+    "node": "16.14.0",
+    "npm": "8.3.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node app.js"
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC"

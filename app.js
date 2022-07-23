@@ -9,16 +9,12 @@ app.use(express.json());
 app.use(cors());
 
 
-app.use("/data",dataRouter);
 
-app.use("/get", function (req, res) {
+app.use("/getData", function (req, res) {
   res.send(" Homepage");
 });
 
-app.use("/", function (req, res) {
-  res.send("Welcome to the Homepage");
-});
-
+app.use("/",dataRouter);
 
 
 //app.get("/editordata", passport.authenticate("google"));

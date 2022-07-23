@@ -3,6 +3,7 @@ var router = express.Router();
 var Data = require("../models/getData_model");
 
 router.get("/:id?", function (req, res, next) {
+    console.log("GET");
     if (!req.params.id) {
         Data.getAllData(function (err, rows) {
 
@@ -30,6 +31,7 @@ router.get("/:id?", function (req, res, next) {
 });
 
 router.put("/", function (req, res, next) {
+    console.log("PUT");
     Data.updateData(req.body, function (err, rows) {
         if (err) {
             res.json(err);
@@ -40,7 +42,7 @@ router.put("/", function (req, res, next) {
     });
 })
 router.post("/", function (req, res, next) {
-    console.log("ROute:", req.body)
+    console.log("POST:")
     Data.addAllData(req.body, function (err, rows) {
 
         if (err) {
@@ -53,6 +55,7 @@ router.post("/", function (req, res, next) {
 });
 
 router.delete("/", function (req, res, next) {
+    console.log("DELETE");
     Data.deleteData(req.body, function (err, rows) {
         if (err) {
             res.json(err);
