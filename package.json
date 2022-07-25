@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "type":"module",
   "dependencies": {
     "@google-cloud/bigquery": "^6.0.1",
     "abbrev": "^1.1.1",
@@ -36,6 +35,7 @@
     "debug": "^4.3.4",
     "depd": "^2.0.0",
     "destroy": "^1.2.0",
+    "dotenv": "^16.0.1",
     "duplexify": "^4.1.2",
     "ecdsa-sig-formatter": "^1.0.11",
     "ee-first": "^1.1.1",
@@ -54,7 +54,6 @@
     "finalhandler": "^1.2.0",
     "forwarded": "^0.2.0",
     "fresh": "^0.5.2",
-    "fsevents": "^2.3.2",
     "function-bind": "^1.1.1",
     "gaxios": "^4.3.3",
     "gcp-metadata": "^4.3.1",
@@ -153,9 +152,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
-  },
-  "optionalDependencies": {
-    "fsevents": "~2.3.2"
   },
   "author": "",
   "license": "ISC"

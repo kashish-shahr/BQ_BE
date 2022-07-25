@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "new-poc-microsite",
+  "private_key_id": "248fc360d70de7f5df79e43abf669f9bc6a954d1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDJTj+TTzRpLuIg\nh6A+tJlOJolC3q4YQamZ6yzmYjD2yu6Vg+agK/mNkZ2kjA9WW9ywo0/Vq9IMIGiD\n8PLXEdsucZ02KMK/80GuPs/dg+GI/FulX+PnvQsys/QxcxdL1QyiRk1PIS7XxKWZ\nV2lde800a/3cPbJ4Ej12H1ga5K6EtIFvozZGHP1Sqn9s6Ele38JZF5R0xKH2cx4+\ngfX1G7so6LO9xCgjV41AwcBRQKbx35CAbkB+d1NTg0ouGaPQXRpgRfnKCGO9kHc3\nSFT+bm2qk2Cj2yJHUSqDbcnBS7Q500NbogP9DAGtdiOdLiIfa3pdUutE7JAMqBI0\n2rufqFQTAgMBAAECggEAKogIQaDl42U+7H2LO0Rf8ZWNwZ2XrdNNuJHqEiDj1Hiq\nsNdF5kh0ONdvtaDL6sSM25sdlnjvb5V3T40cWZlRtD3X5+Xzw6drFJv7wgMHpzAe\nUtHwLnmQAJ3ptXrqDKEOQsjUs6fApGDNVhkUT2aFRBKe96Xna5v69VaJAGGZh7rU\n67x1KBBZYPVSHtNStVlEWPORVBXUnBunitmgbkfAObmATtn9DKTVQyzDYdsefycz\nF5UIkJEelw4DoBgPUUCLhQa5CooLD/JjhTYoOZ//WYtTV+Xl55s5ULUwFiaDBD0z\ni640YL4icKbsuaZF3XoCZz4wvPpfEVFqH+ND2YzzVQKBgQD9o8EFwje/njKIYxgz\ngEtnJcH1wIjzoqKTzJ796vbGmTDQhVQR/jA/jLCcv+Z8iEl/OeuWEqhqFqreCMLH\nwLPiPkFPh4eUb56cj+5O6rWMpdd352lXL0MqD0FoFl8tMYFZYncseAMIVpxZScPy\n/LKsmRPVzJsLCFchPyICHS+TDwKBgQDLLdGpsB6jsNA+6ytX+xuMm1e48g40f8G4\nNCHTCWkj+bVRLIHfy8Of+guQSWnpSoped/lP/gxdHFTiGZre9UV1vocLUbVVYfpU\n6BXp3iN71J+3Yujq/IXmkj6m4dBzIASi5ZCjWKdCX1ugqSoFD4PFniY3n87Ewu6j\nrDH1RuMevQKBgQDNiYm9lOmASj5A76yI74orCBnpgCB67mw4wTSGJ4Xa4gEAuUqr\nWgTXOrdUDt5ERFzq0JDsiCoZ7kyAqTDOloYu7KwYOofP7bPmw2wmX2THmQzGiax/\njjkrODmUk6yE/v0G5hgU3Rv4AdepM3Gq0sQnwdSlCK0Lf7K7qmFwvR30WQKBgQCY\nWdUbPlrbN1wPsdugb0RrHJicr7SDHUEvVLgAPNBAD6AsLAl+vJYFwUMmgEYQjrpO\nt/uURdUThIkJuVVt1dCtx54PmMc2LO++9wBnixBkbD0PD/XDLnNhP0wHatAZY2rW\nkvjv4ywYEtTsFazSep2+cyYJE6XB2MGErTwQxYTMqQKBgQD3JyRKFyjB6mLNlX/4\n5j4a5ZCsPngH+0Ptq/QP2WRCZMVIhO/KT/6O9mj/FbNrQ1aoeJuN+kRW7gvdXSRa\n5ZvVngofo3I4zkW+itvlhry30K7tXM35vNxfuiovoSSW/4YCKR3xTR+7wD58f8Fp\nkXqC50FcaiyMao59xuCEX/reow==\n-----END PRIVATE KEY-----\n",
+  "client_email": "newpoc-bq@new-poc-microsite.iam.gserviceaccount.com",
+  "client_id": "107414151004708491435",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/newpoc-bq%40new-poc-microsite.iam.gserviceaccount.com"
+}

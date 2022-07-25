@@ -1,6 +1,6 @@
 var express = require("express");
 var cors = require("cors");
-
+require("dotenv").config();
 
 var dataRouter=require("./routes/getData_router")
 var app = express();

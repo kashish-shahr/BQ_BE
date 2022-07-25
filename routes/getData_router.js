@@ -30,7 +30,7 @@ router.get("/:id?", function (req, res, next) {
     }
 });
 
-router.put("/", function (req, res, next) {
+router.put("/:id", function (req, res, next) {
     console.log("PUT");
     Data.updateData(req.body, function (err, rows) {
         if (err) {
@@ -54,7 +54,7 @@ router.post("/", function (req, res, next) {
     });
 });
 
-router.delete("/", function (req, res, next) {
+router.delete("/:id", function (req, res, next) {
     console.log("DELETE");
     Data.deleteData(req.body, function (err, rows) {
         if (err) {
