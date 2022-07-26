@@ -32,13 +32,14 @@ const getDataById = (ID, callback) => {
 };
 
 const updateData = (item, callback) => {
+    console.log("PUT",item);
     updateDataQeury = `UPDATE StudentDS.StudentTBL
                         SET name=?,age=?,weight=? 
                         WHERE id=?`;
     const updateOptions = {
         query: updateDataQeury,
         location: 'US',
-        params: [item.name, item.age, item.weight, item.id]
+        params: [item.Name, item.Age, item.Weight, item.Id]
     };
     return bigquery.query(updateOptions, callback)
 };
@@ -53,12 +54,12 @@ const addAllData = (item, callback) => {
     return bigquery.query(addOptions, callback)
 }
 
-const deleteData = (item, callback) => {
+const deleteData = (id, callback) => {
     deleteDataquery = `DELETE FROM StudentDS.StudentTBL where id=?`;
     const deleteOptions = {
         query: deleteDataquery,
         location: 'US',
-        params: [item.id]
+        params: [parseInt(id)]
     };
     return bigquery.query(deleteOptions, callback)
 }

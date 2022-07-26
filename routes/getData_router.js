@@ -31,7 +31,7 @@ router.get("/:id?", function (req, res, next) {
 });
 
 router.put("/:id", function (req, res, next) {
-    console.log("PUT");
+    
     Data.updateData(req.body, function (err, rows) {
         if (err) {
             res.json(err);
@@ -56,7 +56,7 @@ router.post("/", function (req, res, next) {
 
 router.delete("/:id", function (req, res, next) {
     console.log("DELETE");
-    Data.deleteData(req.body, function (err, rows) {
+    Data.deleteData(req.params.id, function (err, rows) {
         if (err) {
             res.json(err);
         }
